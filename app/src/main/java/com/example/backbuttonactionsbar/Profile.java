@@ -24,16 +24,16 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
         ButtonTwos.setOnClickListener(this);
     }
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-
-        if(item.getItemId() == android.R.id.home){
-//            this.finish();
-            onBackPressed();
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override //if set parentactivity name in menifeastxml dont need this
+//    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+//
+//        if(item.getItemId() == android.R.id.home){
+////            this.finish();
+//            onBackPressed();
+//        }
+//
+//        return super.onOptionsItemSelected(item);
+//    }
 
     @Override
     public void onClick(View view) {
